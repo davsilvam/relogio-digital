@@ -3,7 +3,7 @@ const minutos = document.querySelector('#minutos');
 const segundos = document.querySelector('#segundos');
 const partDay = document.querySelector('#am-pm');
 
-const relogio = setInterval(function time() {
+const clock = setInterval(() => {
     let data = new Date();
     let hour = data.getHours();
     let min = data.getMinutes();
